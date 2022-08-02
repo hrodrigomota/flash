@@ -34,31 +34,3 @@ function getInformation() {
 }
 
 window.addEventListener('load', getInformation) // quando usar API para esperar resposta de servidor
-
-/*
-Caso queira modificar as questões
-let perguntas = [
-    {
-        title: 'Olá mundo!',
-        description: 'Olá pessoas lindas e maravilhosas.'
-    },
-
-    {
-        title: 'Olá belo mundo!',
-        description: 'Olá pessoas lindas e maravilhosas 2x.'
-    },
-]
-
-function getInformation() {
-    let valorAleatorio = Math.floor(Math.random() * perguntas.length);
-    let perguntaAleatoria = perguntas[valorAleatorio];
-    nextQuestion(perguntaAleatoria);
-}
-
-Usando exportação e importação entre arquivos JS
-
-export let nomeDaVariavel = 'string'
-
-import {variavel} from './destino'
-
-*/
