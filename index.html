@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash app</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body class="gradient">
+    <div class="mainContainer">
+        <div class="container center">
+            <div class="main">
+                <h1 class="mainLogo">⚡ Flash</h1>
+                <h2 class="mainTitle">Aprenda de forma simples e divertida o vocabulário técnico</h2>
+                <p class="mainDescription">No cartão você encontrará palavras e expressões que irá utilizar no seu dia a dia como dev. Aproveite para testar seus conhecimentos e fixar o significado.</p>
+                <div class="buttons">
+                    <button class="button" onclick="getInformation()">Próxima pergunta</button>
+                    <button class="button" onclick="showAnswer()">Revelar resposta</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="cardContainer" class="container center">
+            <div class="card">
+                <!-- <div class="cardQuestion center">
+                    <h1 class="cardTitle">O que é HTML?</h1>
+                </div>
+                <div id="cardResponse" class="cardResponse blur">
+                    <p>
+                        A Linguagem de Marcação do Hipertexto (HTML) é uma linguagem de computador que compõe a maior parte das páginas da internet e dos aplicativpos online
+                    </p>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
